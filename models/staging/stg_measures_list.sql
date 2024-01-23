@@ -1,0 +1,1 @@
+select * from {{ source("RIVER_LEVEL","MEASURES_LIST")}}

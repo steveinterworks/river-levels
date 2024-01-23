@@ -1,0 +1,11 @@
+version: 1
+
+sources:
+  - name: RIVER_LEVEL
+    database: ST_AIRBYTE_TEST
+    schema: RIVER_LEVEL
+    tables:
+      - name: MEASURES_LIST
+      - name: STATION_LIST
+      - name: STATION_READINGS
+
